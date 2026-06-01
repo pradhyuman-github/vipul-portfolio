@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "vipul-portfolio"
+  base: "/vipul-portfolio"
 })
