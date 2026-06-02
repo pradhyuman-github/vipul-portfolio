@@ -41,7 +41,7 @@ export default function Hero() {
                         <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-8">
 
                             <a
-                                href="/resume.pdf"
+                                href={`${import.meta.env.BASE_URL}resume.pdf`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-2 px-8 py-4 bg-[#7F5539] text-white font-semibold rounded-full hover:bg-[#6F4518] transition"
@@ -51,7 +51,7 @@ export default function Hero() {
                             </a>
 
                             <a
-                                href="/resume.pdf"
+                                href={`${import.meta.env.BASE_URL}resume.pdf`}
                                 download
                                 className="flex items-center justify-center gap-2 px-8 py-4 border border-[#7F5539] text-[#7F5539] rounded-full hover:bg-white hover:text-black transition"
                             >
