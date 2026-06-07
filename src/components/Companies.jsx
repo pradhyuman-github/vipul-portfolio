@@ -1,14 +1,14 @@
 import { motion } from "motion/react";
 
 const companies = [
-  "Google",
-  "Microsoft",
-  "Amazon",
-  "Spotify",
-  "Netflix",
-  "Adobe",
-  "Figma",
-  "Airbnb",
+  "Marsh & Mclennan",
+  "S&P Global",
+  "Honeywell",
+  "Gilead",
+  "Boeing",
+  "CBRE",
+  "KPMG",
+  "WTW",
 ];
 
 export default function Companies() {
@@ -36,7 +36,7 @@ export default function Companies() {
 
           {/* Subheading */}
           <p className="text-[#7B5E57] text-sm sm:text-lg max-w-3xl mx-auto leading-relaxed">
-            Collaborating with innovative brands, startups, and companies to identify high-quality prospects
+            Collaborating with innovative brands, startups, and companies to identify high-quality business opportunities
             and drive consistent lead generation.
           </p>
         </div>
@@ -64,9 +64,9 @@ export default function Companies() {
             {[...companies, ...companies].map((company, index) => (
               <div
                 key={index}
-                className="w-20 sm:min-w-55 h-12 sm:h-27 rounded-xl sm:rounded-3xl border border-zinc-800 bg-zinc-950 flex items-center justify-center hover:border-[#6F4518] transition-all duration-300"
+                className="w-20 sm:min-w-55 h-12 sm:h-27 rounded-xl sm:rounded-3xl text-center border-2 border-[#6F4518] sm:border-4 sm:border-zinc-700 bg-zinc-950 flex items-center justify-center hover:border-[#6F4518] transition-all duration-300"
               >
-                <h3 className="text-sm sm:text-2xl font-semibold text-zinc-300 hover:text-white transition">
+                <h3 className="text-sm sm:text-2xl font-semibold text-white transition">
                   {company}
                 </h3>
               </div>

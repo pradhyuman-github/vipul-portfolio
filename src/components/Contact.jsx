@@ -31,7 +31,7 @@ export default function ContactSection() {
 
         {/* CTA */}
         <motion.a
-          href="mailto:hello@example.com"
+          href="mailto:toshniwal.vipul@gmail.com"
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.96 }}
           className="inline-flex items-center gap-3 bg-[#7F5539] hover:bg-[#6F4518] transition-all duration-300 px-8 py-4 rounded-2xl text-lg font-medium mb-20"

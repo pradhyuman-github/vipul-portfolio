@@ -10,7 +10,9 @@ const experiences = [
         duration: "Jan 2025 - Present",
         short: "Business Process Executive",
         description:
-            "Managed B2B lead generation and prospect research using tools like LinkedIn and LinkedIn Sales Navigator to identify high-quality business opportunities. Focused on lead scraping, data analysis, and targeted outreach strategies to support business growth and improve lead conversion efficiency.",
+            `Generated 1,500-2,000 verified decision-maker leads monthly through LinkedIn and multi-source research while maintaining 98.9% data accuracy. Targeted C-suite and VP-level prospects to improve outreach effectiveness and sales connect rates. 
+
+            Recognized with the Data Entry Excellence Award for achieving the team's highest accuracy record over 12 consecutive months.`
     },
     {
         id: 2,
@@ -20,7 +22,8 @@ const experiences = [
         duration: "Jan 2022 - Jan 2025",
         short: "Team Lead Manager",
         description:
-            "Specialized in B2B lead generation through targeted prospect research, lead scraping, and outreach strategies using LinkedIn and LinkedIn Sales Navigator. Leveraged data-driven decision making to identify qualified leads and support business growth initiatives.",
+            `Sourced and qualified 500+ B2B prospects monthly through LinkedIn research and targeted email campaigns. 
+            Developed structured lead tracking systems in Excel, reducing duplicate outreach by 30% and improving follow-up efficiency.`,
     },
     {
         id: 3,
@@ -30,7 +33,8 @@ const experiences = [
         duration: "Mar 2020 - Dec 2021",
         short: "Business Development Manager",
         description:
-            "Managed lead generation activities including LinkedIn prospecting, B2B outreach, and email list building to connect businesses with relevant potential clients and support outreach campaigns.",
+            `Generated freelance leads through targeted outreach and niche-focused email campaigns with strong engagement performance. 
+            Managed and optimized prospect databases in Excel to meet client-specific requirements, improving data organization and reducing delivery turnaround time.`,
     },
     {
         id: 4,
@@ -40,7 +44,8 @@ const experiences = [
         duration: "Nov 2018 - Feb 2020",
         short: "Business Development Executive",
         description:
-            "Assisted in B2B lead generation by conducting lead scraping, prospect research, and data collection to identify potential business opportunities and maintain organized lead databases.",
+            `Managed and maintained a database of 1,000+ contacts with consistent data accuracy through regular audit cycles. 
+            Supported sales pipeline growth by scheduling client meetings from cold outreach and creating tailored business proposals that improved prospect engagement and meeting conversions.`,
     },
 ];
 
@@ -67,8 +72,8 @@ export default function Experience() {
 
                     {/* SUB HEADING */}
                     <p className="text-[#7B5E57] max-w-2xl text-sm sm:text-lg leading-relaxed">
-                        A timeline of my professional experience, showcasing the roles,
-                        projects, and impact I’ve created through design and development.
+                        Highlighting my professional growth, key roles, and the
+                        impact I've created throughout my journey.
                     </p>
                 </div>
 
@@ -193,10 +198,10 @@ export default function Experience() {
                             </div>
 
                             {/* Divider */}
-                            <div className="w-full h-px bg-zinc-800 mb-8"></div>
+                            <div className="w-full h-px bg-zinc-700 mb-8"></div>
 
                             {/* Description */}
-                            <p className="text-zinc-500 text-lg leading-relaxed">
+                            <p className="text-zinc-500 text-lg leading-relaxed whitespace-pre-line">
                                 {active.description}
                             </p>
                         </div>

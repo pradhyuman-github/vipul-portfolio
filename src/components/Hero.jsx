@@ -53,7 +53,7 @@ export default function Hero() {
                             <a
                                 href={`${import.meta.env.BASE_URL}resume.pdf`}
                                 download
-                                className="flex items-center justify-center gap-2 px-8 py-4 border border-[#7F5539] text-[#7F5539] rounded-full hover:bg-white hover:text-black transition"
+                                className="flex items-center justify-center gap-2 px-8 py-4 border border-[#7F5539] text-[#7F5539] rounded-full hover:bg-white transition"
                             >
                                 <p className="ri-download-2-line"></p>
                                 Download
@@ -71,7 +71,7 @@ export default function Hero() {
                         className="flex justify-center md:justify-end"
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+                            src="./photo2.jpeg"
                             alt="Lead Generation Specialist"
                             className="w-full max-w-125 h-[60vh] md:h-[85vh] object-cover rounded-3xl shadow-2xl"
                         />

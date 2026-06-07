@@ -63,9 +63,9 @@ export default function About() {
             </h1>
 
             <p className="text-[#7B5E57] text-sm md:text-lg leading-relaxed max-w-xl">
-              I specialize in lead generation, outreach strategy, and prospect
+              I specialize in lead generation, outreach strategy, and market
               research focused on helping businesses connect with the right
-              audience and create scalable growth opportunities.
+              audience and generate quality leads.
             </p>
 
             {/* Stats */}
@@ -73,21 +73,21 @@ export default function About() {
 
               <div>
                 <h3 className="text-4xl md:text-5xl font-bold mb-2">
-                  100+
+                  1000+
                 </h3>
 
                 <p className="text-black text-sm uppercase tracking-wide">
-                  Leads Researched
+                  Company Data
                 </p>
               </div>
 
               <div>
                 <h3 className="text-4xl md:text-5xl font-bold mb-2">
-                  25+
+                  300K+
                 </h3>
 
                 <p className="text-black text-sm uppercase tracking-wide">
-                  Outreach Campaigns
+                  Lead Found
                 </p>
               </div>
 
@@ -103,7 +103,7 @@ export default function About() {
 
               <div>
                 <h3 className="text-4xl md:text-5xl font-bold mb-2">
-                  95%
+                  98.9%
                 </h3>
 
                 <p className="text-black text-sm uppercase tracking-wide">
@@ -124,7 +124,7 @@ export default function About() {
             whileInView={{ y: 0, opacity: 1, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: "easeInOut" }}
-            className="min-h-screen bg-[#F5EFE6] flex items-center mx-3 my-2 sm:mx-0 sm:my-0 px-6 md:px-16 py-10 sm:py-24 border-b border-[#7F5539] rounded-3xl sm:rounded-none"
+            className="sm:min-h-screen bg-[#F5EFE6] flex items-center mx-3 my-2 sm:mx-0 sm:my-0 px-6 md:px-16 py-16 sm:py-24 border-b border-[#7F5539] rounded-3xl sm:rounded-none"
           >
             <div className="max-w-2xl">
 
@@ -160,11 +160,11 @@ export default function About() {
 
                   <div className="border border-[#DDBEA9] rounded-3xl p-3 sm:p-6 hover:border-[#7F5539] hover:bg-[#FAEDCD] bg-[#FAEDCD] sm:bg-transparent transition">
                     <h3 className="text-[#7B5E57] text-lg sm:text-2xl font-semibold mb-3">
-                      Prospect Targeting
+                      C-level Targeting
                     </h3>
 
                     <p className="text-black leading-relaxed text-xs sm:text-base">
-                      Focused on finding relevant and high-intent prospects.
+                      Focused on finding relevant and high-intent decision makers.
                     </p>
                   </div>
 

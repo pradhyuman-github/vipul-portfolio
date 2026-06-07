@@ -2,9 +2,8 @@ import { motion } from "motion/react";
 
 export default function Skills() {
   const skills = [
-    "LinkedIn", "Apollo", "HubSpot", "CRM Tools", "Google Sheets", "Lead Tracking", 
-    "Email Outreach", "Data Collection", "Audience Targeting", "Prospect Research",
-    "Lead Generation", "Client Communication"
+    "Lead Generation", "LinkedIn Sales Navigator", "HubSpot", "Apollo", "Google Sheets", "Email Outreach", 
+    "Lead Tracking", "Data Collection", "Scrum Master", "Uplead", "Lemlist", "CRM Tools", "Zoom Info"
   ];
 
   return (
@@ -59,10 +58,10 @@ export default function Skills() {
             className="flex flex-wrap justify-center gap-5"
           >
             {[
-              "LinkedIn",
-              "Apollo",
+              "Lead Generation",
+              "LinkedIn Sales Navigator",
               "HubSpot",
-              "CRM Tools",
+              "Apollo",
             ].map((skill, index) => (
               <motion.div
                 key={index}
@@ -89,7 +88,7 @@ export default function Skills() {
               "Email Outreach",
               "Lead Tracking",
               "Data Collection",
-              "Audience Targeting",
+              "Scrum Master",
             ].map((skill, index) => (
               <motion.div
                 key={index}
@@ -112,9 +111,10 @@ export default function Skills() {
             className="flex flex-wrap justify-center gap-5"
           >
             {[
-              "Prospect Research",
-              "Lead Generation",
-              "Client Communication",
+              "Uplead",
+              "Lemlist",
+              "CRM Tools",
+              "Zoom Info",
             ].map((skill, index) => (
               <motion.div
                 key={index}
